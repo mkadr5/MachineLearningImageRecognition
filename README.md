@@ -1,0 +1,2 @@
+# MachineLearningImageRecognition
+swift training
