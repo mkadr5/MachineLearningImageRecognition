@@ -13,6 +13,7 @@
 		C0C173EF29BDEEDC0030AAFD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0C173ED29BDEEDC0030AAFD /* Main.storyboard */; };
 		C0C173F129BDEEDC0030AAFD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C0C173F029BDEEDC0030AAFD /* Assets.xcassets */; };
 		C0C173F429BDEEDC0030AAFD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0C173F229BDEEDC0030AAFD /* LaunchScreen.storyboard */; };
+		C0C173FC29BDF1DB0030AAFD /* MobileNetV2.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = C0C173FB29BDF1DB0030AAFD /* MobileNetV2.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		C0C173F029BDEEDC0030AAFD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C0C173F329BDEEDC0030AAFD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C0C173F529BDEEDC0030AAFD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C0C173FB29BDF1DB0030AAFD /* MobileNetV2.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = MobileNetV2.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				C0C173E929BDEEDC0030AAFD /* SceneDelegate.swift */,
 				C0C173EB29BDEEDC0030AAFD /* ViewController.swift */,
 				C0C173ED29BDEEDC0030AAFD /* Main.storyboard */,
+				C0C173FB29BDF1DB0030AAFD /* MobileNetV2.mlmodel */,
 				C0C173F029BDEEDC0030AAFD /* Assets.xcassets */,
 				C0C173F229BDEEDC0030AAFD /* LaunchScreen.storyboard */,
 				C0C173F529BDEEDC0030AAFD /* Info.plist */,
@@ -140,6 +143,7 @@
 			files = (
 				C0C173EC29BDEEDC0030AAFD /* ViewController.swift in Sources */,
 				C0C173E829BDEEDC0030AAFD /* AppDelegate.swift in Sources */,
+				C0C173FC29BDF1DB0030AAFD /* MobileNetV2.mlmodel in Sources */,
 				C0C173EA29BDEEDC0030AAFD /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
